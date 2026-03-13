@@ -1,0 +1,12 @@
+.my-link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 114, 252);
+  transition: all 0.2s;
+}
+.my-link:hover {
+  transform: scale(1.1);
+}
+.my-main-logo {
+  color: rgb(0, 114, 252);
+}
