@@ -8,7 +8,7 @@ export default function DefaultLayout() {
         <NavBar />
       </header>
 
-      <main className="container">
+      <main className="container ">
         <Outlet />
       </main>
     </>
