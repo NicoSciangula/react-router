@@ -1,4 +1,4 @@
-export default function SingleProduct({products}) {
+export default function SingleProductCard({products}) {
   const {title, image, description, price, category} = products;
 
   return (

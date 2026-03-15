@@ -1,5 +1,5 @@
 import axios from "axios";
-import SingleProduct from "../components/SingleProduct";
+import SingleProductCard from "../components/SingleProductCard";
 import {useEffect, useState} from "react";
 
 export default function Product() {
@@ -26,7 +26,10 @@ export default function Product() {
         <h1 className="text-center">I nostri Prodotti</h1>
         <div className="d-flex flex-wrap justify-content-center">
           {product.map((singleProduct) => (
-            <SingleProduct key={singleProduct.id} products={singleProduct} />
+            <SingleProductCard
+              key={singleProduct.id}
+              products={singleProduct}
+            />
           ))}
         </div>
       </section>
