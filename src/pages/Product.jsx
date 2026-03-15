@@ -24,7 +24,11 @@ export default function Product() {
     <>
       <section className="my-bg my-font-color mt-3 p-3">
         <h1 className="text-center">I nostri Prodotti</h1>
-        <div></div>
+        <div className="d-flex flex-wrap justify-content-center">
+          {product.map((singleProduct) => (
+            <SingleProduct key={singleProduct.id} products={singleProduct} />
+          ))}
+        </div>
       </section>
     </>
   );
