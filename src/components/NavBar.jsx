@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <>
       <div>
-        <h1 className="my-main-logo">React Router</h1>
+        <h1 className="my-main-logo ps-2">React Router</h1>
       </div>
       <nav className="fs-4 my-nav">
         <Link to="/" className="px-2 my-link">
