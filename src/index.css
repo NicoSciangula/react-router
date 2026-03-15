@@ -22,24 +22,10 @@
   object-fit: contain;
 }
 
-.my-product {
-  transition: all 0.3s;
-  position: relative;
-  z-index: 1;
-}
-
 .my-description-product {
   display: none;
 }
 
-.my-product:hover {
-  transform: scale(1.4);
-  height: 100% !important;
-  z-index: 2;
-}
-.my-product:hover .my-description-product {
-  display: block;
-}
 .active {
   color: #0080ff;
 }
