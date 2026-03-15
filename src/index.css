@@ -1,18 +1,17 @@
 .my-link {
   display: inline-block;
   text-decoration: none;
-  color: #003366;
   transition: all 0.2s;
 }
 .my-link:hover {
   transform: scale(1.1);
   color: rgb(0, 114, 252);
 }
-.my-main-logo {
-  color: #2d3436;
+.my-font-color {
+  color: #003366;
 }
 
-.my-bg-header {
+.my-bg {
   background-color: #e2e8f0;
   border-radius: 16px;
 }
