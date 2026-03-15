@@ -29,6 +29,7 @@ export default function Product() {
             <SingleProductCard
               key={singleProduct.id}
               products={singleProduct}
+              isDetail={false}
             />
           ))}
         </div>
