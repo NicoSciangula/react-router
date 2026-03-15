@@ -40,3 +40,6 @@
 .my-product:hover .my-description-product {
   display: block;
 }
+.active {
+  color: #0080ff;
+}
